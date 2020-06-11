@@ -20,13 +20,14 @@ Aplikacja generująca animację ze zdjęć, wdrożona z wykorzystaniem usług d
 ### Usługi wspomagające realizacje wymagań
 
 * Amazon Cognito -> rejestracja oraz zarządzanie użytkownikami
-* Cloud9 -> IDE
-* Lambda -> tworzenie funkcji obsługi zdjęć, wysyłanie do kolejki, tworzenie animacji oraz notyfikacji na maila
-* Simple Queue Service -> kolejka do animacji i notyfikacji
 * Simple Email Service -> wysyłanie maila o stworzonej animacji
 * S3 -> przechowywanie plików
-* API Gateway -> API REST służące do integracji z funkcjami Lambda
 * CloudWatch -> logowanie i pomoc w debugowaniu
+* Simple Queue Service -> kolejka do animacji i notyfikacji
+* Cloud9 -> IDE
+* Lambda -> tworzenie funkcji obsługi zdjęć, wysyłanie do kolejki, tworzenie animacji oraz notyfikacji na maila
+* API Gateway -> API REST służące do integracji z funkcjami Lambda
+
 
 ### Charakterysytka modułów aplikacji
 Wykorzystanie technologie, sposób integracji, opis funkcjonalności
